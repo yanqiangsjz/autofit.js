@@ -113,6 +113,7 @@ const autofit: autofit = {
             elRectification(currelRectification, currelRectificationIsKeepRatio, currelRectificationLevel);
         }, delay) as unknown as number;
       else {
+        
         keepFit(dw, dh, dom, ignore, limit, cssMode);
         isElRectification &&
           elRectification(currelRectification, currelRectificationIsKeepRatio, currelRectificationLevel);
